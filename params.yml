@@ -1,0 +1,20 @@
+hello: from the params file
+
+users:
+  - Luke
+  - Leia
+  - Han
+  - Chewbacca
+  - R2D2
+
+users_complex:
+  - name: Luke
+    type: Human
+  - name: Leia
+    type: Human
+  - name: Han
+    type: Human
+  - name: Chewbacca
+    type: Wookie
+  - name: R2D2
+    type: Droid
