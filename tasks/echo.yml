@@ -6,12 +6,12 @@ image_resource:
     mirror_self: true
 
 params:
-  NAME: world
+  TEXT: some text
 
 run:
   path: sh
   args:
     - -c
     - |
-      echo "Hello $NAME"
+      echo "$TEXT"
 

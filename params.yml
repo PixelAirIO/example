@@ -7,14 +7,19 @@ users:
   - Chewbacca
   - R2D2
 
-users_complex:
-  - name: Luke
-    type: Human
-  - name: Leia
-    type: Human
-  - name: Han
-    type: Human
-  - name: Chewbacca
-    type: Wookie
-  - name: R2D2
-    type: Droid
+clouds:
+  - aws
+  - gcp
+k8s_versions:
+  - "1.32"
+  - "1.33"
+
+envs:
+  - cloud: gcp
+    k8s_version: "1.32"
+  - cloud: gcp
+    k8s_version: "1.33"
+  - cloud: aws
+    k8s_version: "1.32"
+  - cloud: aws
+    k8s_version: "1.33"
